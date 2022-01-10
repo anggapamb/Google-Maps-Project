@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "697822334297",
+    "project_id": "maps-project-67783",
+    "storage_bucket": "maps-project-67783.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:697822334297:android:1c12bf7b9a54a078cb1048",
+        "android_client_info": {
+          "package_name": "com.anggapambudi.googlemapsproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "697822334297-59af849ll54dut35l7bd6lad3kib3eg4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.anggapambudi.googlemapsproject",
+            "certificate_hash": "2d34fe8dbb0e11cb9b2cd1e22b84efba1a824ca6"
+          }
+        },
+        {
+          "client_id": "697822334297-fb3ff7caimmd4adk10niblot7d5hg7nn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMF-5SBSgr8ynHOQtKj7kZLHLwuTc1aoA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "697822334297-fb3ff7caimmd4adk10niblot7d5hg7nn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
