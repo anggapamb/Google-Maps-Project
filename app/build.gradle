@@ -14,7 +14,7 @@ android {
 
     defaultConfig {
         applicationId "com.anggapambudi.googlemapsproject"
-        minSdk 21
+        minSdk 23
         targetSdk 31
         versionCode 1
         versionName "1.0"
@@ -59,15 +59,19 @@ dependencies {
     implementation 'com.intuit.sdp:sdp-android:1.0.6'
     //Firebase
     implementation 'com.google.firebase:firebase-analytics:20.0.2'
-    implementation 'com.google.firebase:firebase-crashlytics:18.2.6'
+    implementation 'com.google.firebase:firebase-crashlytics:18.2.7'
     implementation platform('com.google.firebase:firebase-bom:25.12.0')
     //CrocodicCore
     implementation 'com.github.crocodic-studio:AndroidCoreProject:3.0.0-beta7'
     // Coroutines
-    implementation "androidx.room:room-ktx:2.4.0"
+    implementation "androidx.room:room-ktx:2.4.1"
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.2"
     //With Hilt
     implementation 'com.google.dagger:hilt-android:2.38.1'
     kapt 'com.google.dagger:hilt-android-compiler:2.38.1'
+    //Place API
+    implementation 'com.google.android.libraries.places:places:2.5.0'
+    //draw rure
+    implementation 'com.github.malikdawar:drawroute:1.5'
 
 }
